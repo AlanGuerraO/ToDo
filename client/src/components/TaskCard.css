@@ -1,0 +1,33 @@
+.card-container {
+    border: 1px solid #1A237E; /* Color de borde usando el color de la paleta */
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #E3F2FD; /* Color de fondo de las cards usando la paleta */
+    cursor: pointer;
+    color: #0D47A1; /* Color del texto usando la paleta de texto */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animaciones suaves para hover */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.card-container:hover {
+    transform: scale(1.05); /* Aumentar el tamaño ligeramente al pasar el mouse */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Agregar sombra sutil */
+}
+
+.card-container h2 {
+    color: #1A237E; /* Color para el título de la tarea */
+    font-size: 1.5rem; /* Tamaño de fuente moderado */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card-container p {
+    color: #0D47A1; /* Color de la descripción */
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.card-container hr {
+    border: 1px solid #2196F3; /* Línea separadora con color de sección */
+    margin: 10px 0;
+}

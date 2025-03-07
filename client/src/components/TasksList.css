@@ -1,0 +1,31 @@
+.tasks-list {
+    display: grid; /* Usamos grid para agrupar las cards */
+    grid-template-columns: repeat(5, 1fr); /* Crea 5 columnas de igual tamaño */
+    gap: 20px;
+    padding: 20px;
+    grid-auto-rows: minmax(200px, auto); /* Fila de tamaño automático con un mínimo de 200px */
+}
+
+@media (max-width: 1200px) {
+    .tasks-list {
+        grid-template-columns: repeat(4, 1fr); /* 4 columnas para pantallas medianas */
+    }
+}
+
+@media (max-width: 900px) {
+    .tasks-list {
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas para pantallas pequeñas */
+    }
+}
+
+@media (max-width: 600px) {
+    .tasks-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas para pantallas muy pequeñas */
+    }
+}
+
+@media (max-width: 400px) {
+    .tasks-list {
+        grid-template-columns: 1fr; /* 1 columna para pantallas muy pequeñas */
+    }
+}
