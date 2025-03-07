@@ -1,0 +1,13 @@
+.tasks-page{
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1A237E;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    text-transform: capitalize;
+}
