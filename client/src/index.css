@@ -1,8 +1,29 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-body{
+body, html {
+  height: 100%;
+}
+
+body {
   background: #F8F9FA;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Este contenedor abarcará todo menos el footer */
+.app-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }

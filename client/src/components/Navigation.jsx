@@ -13,7 +13,7 @@ export function Navigation() {
                 </Link>
                 <ul>
                     <li>
-                        <Link to='/tasks'>Inicio</Link>
+                        <Link to='/tasks' className="inicio">Inicio</Link>
                     </li>
                     <li>
                         <Link to='/tasks-create' className="crear">Create Task</Link>

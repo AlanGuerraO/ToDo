@@ -48,6 +48,14 @@ a {
     cursor: pointer;
 }
 
+.crear:hover {
+    background: #2f359b;
+}
+
+.inicio:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 900px) {
     nav {
         flex-direction: column;
