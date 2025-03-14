@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { getAllTasks } from "../api/tasks.api"
 import { TaskCard } from "./TaskCard"
-import './TasksList.css'; // Importar los estilos de la lista
+import './TasksList.css';
 
 export function TasksList() {
     const [ tasks, setTasks ] = useState([])

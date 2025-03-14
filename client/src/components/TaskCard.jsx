@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import './TaskCard.css'; // Importar los estilos de la card
+import './TaskCard.css';
 
 export function TaskCard({ task }) {
     const navigate = useNavigate();
